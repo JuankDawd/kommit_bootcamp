@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def custome_join(arr, delimiter = '')
+def custom_join(arr, delimiter = '')
   final_name = ''
 
   arr.each_with_index do |name, i|
@@ -20,4 +20,4 @@ p a
 
 p names.join('-')
 
-p custome_join(names, '--**--')
+p custom_join(names, '--**--')

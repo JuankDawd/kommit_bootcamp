@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def custome_squeeze(string)
+def custom_squeeze(string)
   final = ''
   chars = string.chars
   chars.each_with_index { |char, index| char == chars[index + 1] ? next : final += char }
@@ -9,4 +9,4 @@ end
 
 sentence = 'Thhe   aardvark    jummped    ovver    the  fence!'
 
-puts sentence.squeeze == custome_squeeze(sentence)
+puts sentence.squeeze == custom_squeeze(sentence)
