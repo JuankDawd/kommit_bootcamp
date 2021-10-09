@@ -1,0 +1,4 @@
+Labore adipisicing non ad nostrud exercitation ullamco.
+No line break here!Ex ea elit nulla aliqua ex dolor cillum cupidatat tempor consectetur aute.
+Labore adipisicing non ad nostrud exercitation ullamco.
+a appends while w writes (and overwrites) the file
