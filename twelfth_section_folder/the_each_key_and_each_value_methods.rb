@@ -25,7 +25,6 @@ end
 
 salaries.each_value { |salary| puts "The next employee earns #{salary}." }
 
-
 p get_keys_from_hash(salaries)
 
 puts
